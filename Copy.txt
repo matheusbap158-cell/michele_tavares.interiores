@@ -1,0 +1,152 @@
+COPY — LANDING PAGE
+Michele Tavares — Design de Interiores (Lavras/MG)
+
+
+1. HERO
+
+Título: Ambientes sofisticados, funcionais e personalizados
+
+Subtítulo: Design de interiores residencial e comercial com Michele Tavares, há mais de 14 anos transformando espaços — presencial e online.
+
+Texto: Um projeto bem pensado muda a forma como você vive o seu espaço todos os dias. Michele Tavares une sofisticação e funcionalidade para criar ambientes que têm a sua cara, do primeiro rascunho à entrega.
+
+Botão (CTA): Começar meu projeto pelo WhatsApp
+
+
+2. SOBRE A DESIGNER
+
+Título: Quem projeta o seu espaço
+
+Subtítulo: Mais de 14 anos de design de interiores
+
+Texto: Michele Tavares é designer de interiores há mais de 14 anos, com projetos residenciais e comerciais em Lavras/MG e atendimento online para todo o Brasil. Cada projeto é conduzido de perto, com atenção aos detalhes que fazem um ambiente parecer pronto para uma revista — e funcionar de verdade no dia a dia.
+
+
+3. ÁREAS DE ATUAÇÃO
+
+Título de seção: Áreas de atuação
+
+Título: Onde a Michele pode transformar o seu espaço
+
+Subtítulo: Residencial, comercial e consultoria online
+
+Texto introdutório: Cada ambiente pede uma abordagem diferente. Veja como a Michele pode atuar no seu projeto.
+
+— Residencial
+Projetos completos para casas e apartamentos, do conceito à execução.
+
+— Comercial
+Ambientes comerciais pensados para experiência do cliente e identidade do negócio.
+
+— Consultoria online
+Atendimento para todo o Brasil, para quem quer um projeto assinado por ela mesmo à distância.
+
+Botão (CTA): Falar sobre o meu espaço
+
+
+4. PORTFÓLIO
+
+Título de seção: Portfólio
+
+Título: Projetos reais, assinados pela Michele
+
+Subtítulo: Cada imagem é um ambiente entregue
+
+(Galeria com as 6 fotos de projetos da pasta Fotos/: sala de jantar integrada à cozinha, cozinha com ilha e sala de estar, quarto com marcenaria e TV, área externa com piscina e deck, home office com estante, fachada com piscina.)
+
+
+5. DIFERENCIAIS
+
+Título de seção: Diferenciais
+
+Título: Por que clientes confiam no trabalho da Michele
+
+Subtítulo: Sofisticação com função, do jeito que a sua rotina precisa
+
+Texto: [DIFERENCIAIS A CONFIRMAR — ex.: acompanhamento de obra, parceria com fornecedores, prazo médio de entrega]
+
+- Mais de 14 anos de experiência em design de interiores
+- Atuação residencial, comercial e online para todo o Brasil
+- Projetos personalizados, sem fórmula pronta
+
+
+6. COMO FUNCIONA O ATENDIMENTO
+
+Título de seção: Como funciona
+
+Título: Do primeiro contato ao projeto entregue
+
+Subtítulo: Um processo claro, do jeito que você merece
+
+Texto:
+1. Você chama no WhatsApp e conta como imagina o seu espaço
+2. Michele entende as necessidades do ambiente e da rotina da família ou do negócio
+3. Desenvolvimento do projeto com acompanhamento em cada etapa
+
+Botão (CTA): Iniciar meu projeto pelo WhatsApp
+
+
+7. PROVA SOCIAL
+
+Título de seção: Depoimentos
+
+Título: Quem já transformou o espaço, aprova
+
+Subtítulo: Nota 5,0 no Google, com 6 avaliações
+
+Depoimento 1: "Ficou linda a transformação que a Michele fez no meu espaço!"
+
+Depoimento 2: "Muito competente e profissional."
+
+Depoimento 3: "Os projetos são maravilhosos!"
+
+Nota: os três depoimentos vêm do resumo de avaliações do Google Maps, sem o nome de quem avaliou. [A CONFIRMAR — buscar a lista completa no Maps para creditar os nomes, ou manter anônimo]
+
+
+8. LOCALIZAÇÃO E CONTATO
+
+Título de seção: Onde estamos
+
+Título: Atendimento em Lavras/MG e online para todo o Brasil
+
+Subtítulo: Rua José Haddad, 150 — Vila Alzira, Lavras/MG, 37205-182
+
+Texto: Atendimento presencial em Lavras e consultoria online para clientes de todo o Brasil. Horário de atendimento: [A CONFIRMAR — o Google Maps mostra só "Fecha 18:00", sem o horário completo].
+
+Botão (CTA): Chamar no WhatsApp
+
+
+9. CTA FINAL
+
+Título: O projeto do seu espaço começa aqui
+
+Subtítulo: Fale diretamente com a Michele Tavares
+
+Texto: Conte como você imagina o seu espaço e descubra como transformar isso em projeto.
+
+Botão (CTA): Começar meu projeto agora
+
+
+———————————————————
+DADOS USADOS (reais, confirmados na pasta do lead)
+———————————————————
+- Nome: Michele Tavares — Designer de Interiores
+- Experiência: +14 anos (bio do Instagram)
+- Atuação: Residencial e Comercial, atendimento Online (bio do Instagram)
+- Endereço: Rua José Haddad, 150 - Vila Alzira, Lavras/MG, 37205-182 (Google Maps)
+- Telefone/WhatsApp: (35) 99736-0098 (Google Maps; o link salvo na pasta é um QR code do Instagram, sem número visível, então usei o do Maps)
+- Instagram: @michele_tavares.interiores
+- Avaliação Google: 5,0 estrelas, 6 avaliações
+- Depoimentos: extraídos do resumo de avaliações públicas do Google (sem nome do autor)
+- Fotos: 6 imagens de projetos reais dela, em Fotos/
+- Logo: pronta, em Logo/ (monograma "MT" preto + assinatura "Michele Tavares" em script terracota/mocha)
+
+
+———————————————————
+PENDÊNCIAS — O QUE FALTA CONFIRMAR COM A LEAD
+———————————————————
+- Diferenciais específicos que ela queira destacar (ex.: acompanhamento de obra, parceria com fornecedores, prazo médio)
+- Horário completo de atendimento (Maps mostra só "Fecha 18:00")
+- Nome dos clientes nos 3 depoimentos (só temos o texto, sem autor)
+- Confirmar se as 6 fotos podem ser usadas publicamente no site (são prints de posts do Instagram/portfólio, mas vale confirmar autorização e se há crédito de fotógrafo a dar)
+- Site de referência: nenhum específico usado, seguimos formato de portfólio

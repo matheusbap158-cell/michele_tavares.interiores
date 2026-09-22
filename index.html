@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Michele Tavares | Design de Interiores em Lavras/MG</title>
+<meta name="description" content="Design de interiores residencial e comercial com Michele Tavares, há mais de 14 anos transformando espaços em Lavras/MG e online para todo o Brasil.">
+<meta name="theme-color" content="#1C1815">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Michele Tavares | Design de Interiores">
+<meta property="og:description" content="Ambientes sofisticados, funcionais e personalizados. Mais de 14 anos de experiência.">
+<meta property="og:image" content="assets/projeto-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Michele Tavares | Design de Interiores">
+<meta name="twitter:description" content="Residencial, comercial e consultoria online. Fale pelo WhatsApp.">
+<meta name="twitter:image" content="assets/projeto-01.jpg">
+<link rel="icon" href="assets/logo-mt.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Dados estruturados — endereço, telefone e nota reais; caminhos relativos até ter domínio definitivo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Michele Tavares Design de Interiores",
+  "image": "assets/projeto-01.jpg",
+  "telephone": "+5535997360098",
+  "description": "Design de interiores residencial e comercial em Lavras, MG, com mais de 14 anos de experiência e atendimento online para todo o Brasil.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua José Haddad, 150 - Vila Alzira",
+    "addressLocality": "Lavras",
+    "addressRegion": "MG",
+    "postalCode": "37205-182",
+    "addressCountry": "BR"
+  },
+  "areaServed": ["Lavras e região, MG", "Brasil (consultoria online)"],
+  "sameAs": ["https://www.instagram.com/michele_tavares.interiores/"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "6"
+  }
+}
+</script>
+
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  /* Tokens vindos de design-system-michele-tavares.html — não alterar sem atualizar os dois arquivos */
+  --ink-950:#1C1815;--ink-800:#2E2823;--ink-600:#5C5349;
+  --mocha-700:#7C6857;--mocha-600:#9C8570;--mocha-400:#B9A28C;--mocha-200:#E4D9CB;
+  --cream-50:#FAF6F0;--sand-100:#F0E7DA;--sand-200:#E1D3C0;
+  --wa-500:#25D366;--wa-600:#128C7E;--gold-400:#C9A96B;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Work Sans',-apple-system,'Segoe UI',sans-serif;
+  --r-sm:4px;--r-md:6px;--r-lg:8px;--r-xl:12px;
+  --sh-card:0 2px 10px rgba(28,24,21,.06);
+  --sh-cta:0 8px 20px rgba(156,133,112,.28);
+  --sh-float:0 8px 24px rgba(37,211,102,.35);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--cream-50);color:var(--ink-800);font-family:var(--font-body);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-display);font-weight:600;margin:0}
+p{margin:0}
+:focus-visible{outline:3px solid var(--mocha-400);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+@media (max-width:640px){.wrap{padding:0 20px}}
+
+.skip-link{position:absolute;left:16px;top:-60px;background:var(--ink-950);color:#fff;padding:12px 18px;border-radius:var(--r-sm);z-index:100;transition:top .2s}
+.skip-link:focus{top:16px}
+
+.site-header{position:sticky;top:0;z-index:30;background:rgba(250,246,240,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand-200)}
+.nav-in{max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink-950)}
+.brand img{height:32px;width:auto}
+.brand span{font-family:var(--font-display);font-size:18px;font-weight:600;line-height:1.15}
+.brand em{color:var(--mocha-600);font-style:italic}
+.nav-links{display:flex;gap:4px;margin-left:auto}
+.nav-links a{text-decoration:none;font-size:13.5px;font-weight:500;color:var(--ink-600);padding:8px 12px;border-radius:var(--r-sm);white-space:nowrap;letter-spacing:.01em}
+.nav-links a:hover,.nav-links a.on{color:var(--ink-950);background:var(--sand-100)}
+.menu-btn{display:none;background:transparent;border:1px solid var(--sand-200);color:var(--ink-950);border-radius:var(--r-sm);padding:8px 10px;margin-left:auto}
+@media (max-width:900px){
+  .nav-links{position:absolute;left:0;right:0;top:100%;background:var(--cream-50);flex-direction:column;gap:0;padding:8px 24px 16px;border-bottom:1px solid var(--sand-200);display:none}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:12px 8px}
+  .menu-btn{display:inline-flex}
+  .nav-in .header-cta{display:none}
+}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:56px;padding:12px 12px 12px 26px;border-radius:var(--r-sm);font-family:var(--font-body);font-size:15.5px;font-weight:600;text-decoration:none;cursor:pointer;border:1px solid transparent;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.btn .ico{width:34px;height:34px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}
+.btn .ico svg{width:18px;height:18px}
+.btn-primary{background:var(--mocha-600);color:#fff;box-shadow:var(--sh-cta)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(156,133,112,.36)}
+.btn-primary .ico svg{fill:var(--mocha-600)}
+.btn-wa{background:var(--wa-500);color:#fff}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(37,211,102,.35)}
+.btn-wa .ico svg{fill:var(--wa-500)}
+.btn-outline{background:transparent;color:var(--ink-800);border-color:var(--sand-200);padding-right:26px}
+.dark .btn-outline{color:#fff;border-color:rgba(255,255,255,.28)}
+.btn-outline:hover{border-color:var(--mocha-400)}
+.btn.is-small{min-height:44px;font-size:13.5px;padding-left:18px}
+.btn.is-small .ico{width:26px;height:26px}
+.btn.is-small .ico svg{width:14px;height:14px}
+
+section{padding:88px 0}
+@media (max-width:640px){section{padding:56px 0}}
+section.dark{background:var(--ink-950);color:#fff}
+section.light{background:var(--cream-50);color:var(--ink-800)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:7px 14px;border-radius:var(--r-sm);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);color:var(--sand-100)}
+.light .eyebrow{background:var(--mocha-200);border-color:transparent;color:var(--mocha-700)}
+.sec-head{max-width:40rem;margin:0 auto 40px;text-align:center}
+.sec-head h2{font-size:clamp(28px,4vw,40px);line-height:1.22;margin:14px 0 10px}
+.sec-head h2 em{color:var(--mocha-400);font-style:italic}
+.light .sec-head h2 em{color:var(--mocha-600)}
+.sec-head .sub{font-size:15.5px;font-weight:600;margin:0 0 8px}
+.sec-head p.lede{color:var(--sand-100);font-size:15.5px}
+.light .sec-head p.lede{color:var(--ink-600)}
+.pend{display:inline-block;border:1px dashed currentColor;border-radius:4px;padding:1px 8px;opacity:.8;font-size:.94em}
+
+.hero{padding:56px 0 80px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:32px}}
+.hero-copy h1{font-size:clamp(32px,4.8vw,52px);line-height:1.2;margin:16px 0 16px}
+.hero-copy h1 em{color:var(--mocha-400);font-style:italic}
+.hero-copy .sub{font-size:16.5px;font-weight:600;color:var(--sand-100);max-width:34rem;margin:0 0 14px}
+.hero-copy .body{font-size:16px;line-height:1.7;color:var(--sand-100);max-width:34rem;margin:0 0 28px}
+.hero-photo{border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--sh-cta);aspect-ratio:4/3}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+
+.sobre-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:center}
+@media (max-width:860px){.sobre-grid{grid-template-columns:1fr}}
+.sobre-photo{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-card);aspect-ratio:3/4;max-width:340px;margin:0 auto}
+.sobre-photo img{width:100%;height:100%;object-fit:cover}
+.sobre-copy h2{font-size:clamp(26px,3.6vw,36px);margin:6px 0 8px}
+.sobre-copy .sub{font-weight:600;font-size:15.5px;color:var(--mocha-600);margin:0 0 14px}
+.sobre-copy p{font-size:16px;line-height:1.75;color:var(--ink-600);max-width:38rem}
+
+.cards3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card-light{background:#fff;border:1px solid var(--sand-200);border-radius:var(--r-md);padding:28px;box-shadow:var(--sh-card)}
+.card-light h3{font-size:18px;font-weight:600;margin:18px 0 8px;font-family:var(--font-body)}
+.card-light p{margin:0;color:var(--ink-600);font-size:14.5px;line-height:1.6}
+.tile{width:44px;height:44px;border-radius:var(--r-sm);display:grid;place-items:center;background:var(--mocha-200)}
+.tile svg{width:22px;height:22px;stroke:var(--mocha-700);stroke-width:1.4;fill:none}
+.cta-center{text-align:center;margin-top:40px}
+
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:760px){.gallery{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.gallery{grid-template-columns:1fr}}
+.gallery figure{margin:0;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/3}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.gallery figure:hover img{transform:scale(1.04)}
+
+.dif-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;max-width:900px;margin:0 auto}
+.dif-item{background:#fff;border:1px solid var(--sand-200);border-radius:var(--r-md);padding:22px;display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh-card)}
+.dif-item .check{flex:none;width:26px;height:26px;border-radius:50%;background:var(--mocha-600);color:#fff;display:grid;place-items:center;font-size:14px;font-weight:700}
+.dif-item p{font-size:15px;line-height:1.55;color:var(--ink-600)}
+
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.step{background:var(--ink-950);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-md);padding:28px 26px;position:relative;overflow:hidden}
+.step::before{content:"";position:absolute;top:-1px;left:24px;width:48px;height:3px;background:var(--mocha-600)}
+.step .n{font-family:var(--font-display);font-style:italic;font-size:44px;line-height:1;color:rgba(255,255,255,.28)}
+.step h3{font-size:17px;font-weight:600;margin:12px 0 8px;font-family:var(--font-body)}
+.step p{color:var(--sand-100);font-size:14.5px;line-height:1.55;margin:0}
+
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.review{background:#fff;border:1px solid var(--sand-200);border-radius:var(--r-md);padding:26px;box-shadow:var(--sh-card)}
+.review .top{display:flex;justify-content:flex-end;margin-bottom:8px}
+.review .g{font-weight:700;font-size:15px;color:#4285F4}
+.review p{margin:0 0 10px;font-family:var(--font-display);font-style:italic;font-size:18px;color:var(--ink-800);line-height:1.5}
+.review small{color:var(--ink-600);font-size:12.5px}
+
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media (max-width:860px){.loc-grid{grid-template-columns:1fr}}
+.loc-copy address{font-style:normal;font-size:16.5px;line-height:1.6;margin:0 0 14px}
+.loc-copy p{font-size:15.5px;line-height:1.7;color:var(--ink-600);margin:0 0 22px;max-width:32rem}
+.map-frame{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-card);border:1px solid var(--sand-200);aspect-ratio:4/3}
+.map-frame iframe{width:100%;height:100%;border:0}
+
+.summary{background:var(--ink-950);color:#fff;border-radius:var(--r-xl);padding:56px 40px;text-align:center;border:1px solid rgba(255,255,255,.08)}
+.summary h2{font-size:clamp(26px,3.8vw,38px);line-height:1.26;margin:0 0 10px}
+.summary h2 em{color:var(--mocha-400);font-style:italic}
+.summary .sub{font-size:15.5px;color:var(--sand-100);margin:0 0 16px}
+.summary p{max-width:32rem;margin:0 auto 30px;color:var(--sand-100);font-size:15.5px;line-height:1.6}
+
+.site-footer{background:var(--ink-950);color:var(--sand-100);padding:48px 0 32px;font-size:14px}
+.ftr-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;margin-bottom:32px}
+@media (max-width:760px){.ftr-grid{grid-template-columns:1fr;gap:24px}}
+.ftr-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.ftr-brand img{height:28px;filter:brightness(0) invert(1);opacity:.9}
+.ftr-brand span{font-family:var(--font-display);font-size:18px;color:#fff}
+.site-footer h4{font-size:12.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--sand-100);opacity:.7;margin:0 0 12px}
+.site-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.site-footer a{text-decoration:none;color:var(--sand-100)}
+.site-footer a:hover{color:var(--mocha-400)}
+.ftr-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;color:var(--sand-100);opacity:.7;font-size:12.5px}
+
+.fab{position:fixed;right:20px;bottom:20px;z-index:40;width:58px;height:58px;border-radius:50%;background:var(--wa-500);display:grid;place-items:center;box-shadow:var(--sh-float);text-decoration:none}
+.fab svg{width:28px;height:28px;fill:#fff}
+@media (max-width:640px){.fab{right:16px;bottom:16px;width:52px;height:52px}}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <div class="nav-in">
+    <a class="brand" href="#inicio">
+      <img src="assets/logo-mt.png" alt="Michele Tavares Design de Interiores" width="43" height="33">
+      <span>Michele <em>Tavares</em></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Seções da página">
+      <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#localizacao">Contato</a>
+    </nav>
+    <a class="btn btn-wa is-small header-cta" data-wa="Olá! Vim pelo site e quero falar sobre o meu projeto com a Michele." href="https://wa.me/5535997360098">Falar com a Michele <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+  </div>
+</header>
+
+<main id="inicio">
+
+<!-- 1. HERO -->
+<section class="dark hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Design de Interiores · Lavras/MG</span>
+      <h1 id="hero-title">Ambientes sofisticados, funcionais e <em>personalizados</em></h1>
+      <p class="sub">Design de interiores residencial e comercial com Michele Tavares, há mais de 14 anos transformando espaços — presencial e online.</p>
+      <p class="body">Um projeto bem pensado muda a forma como você vive o seu espaço todos os dias. Michele Tavares une sofisticação e funcionalidade para criar ambientes que têm a sua cara, do primeiro rascunho à entrega.</p>
+      <a class="btn btn-primary" data-wa="Olá! Vim pelo site e quero começar meu projeto com a Michele." href="https://wa.me/5535997360098">Começar meu projeto pelo WhatsApp <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+    </div>
+    <div class="hero-photo"><img src="assets/projeto-01.jpg" alt="Sala de jantar integrada à cozinha em projeto de Michele Tavares" width="744" height="616" fetchpriority="high"></div>
+  </div>
+</section>
+
+<!-- 2. SOBRE -->
+<section class="light reveal" id="sobre" aria-labelledby="sobre-title">
+  <div class="wrap sobre-grid">
+    <div class="sobre-photo"><img src="assets/projeto-04.jpg" alt="Área externa com piscina em projeto de Michele Tavares" width="719" height="512" loading="lazy"></div>
+    <div class="sobre-copy">
+      <span class="eyebrow">Quem projeta o seu espaço</span>
+      <h2 id="sobre-title">Mais de 14 anos de design de interiores</h2>
+      <p>Michele Tavares é designer de interiores há mais de 14 anos, com projetos residenciais e comerciais em Lavras/MG e atendimento online para todo o Brasil. Cada projeto é conduzido de perto, com atenção aos detalhes que fazem um ambiente parecer pronto para uma revista — e funcionar de verdade no dia a dia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. ÁREAS DE ATUAÇÃO -->
+<section class="dark reveal" id="areas" aria-labelledby="areas-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Áreas de atuação</span>
+      <h2 id="areas-title">Onde a <em>Michele</em> pode transformar o seu espaço</h2>
+      <p class="sub" style="color:var(--mocha-400)">Residencial, comercial e consultoria online</p>
+      <p class="lede">Cada ambiente pede uma abordagem diferente. Veja como a Michele pode atuar no seu projeto.</p>
+    </div>
+    <div class="cards3">
+      <div class="card-light">
+        <div class="tile"><svg viewBox="0 0 24 24"><path d="M3 12l9-8 9 8M5 10v10h14V10"/></svg></div>
+        <h3>Residencial</h3>
+        <p>Projetos completos para casas e apartamentos, do conceito à execução.</p>
+      </div>
+      <div class="card-light">
+        <div class="tile"><svg viewBox="0 0 24 24"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg></div>
+        <h3>Comercial</h3>
+        <p>Ambientes comerciais pensados para experiência do cliente e identidade do negócio.</p>
+      </div>
+      <div class="card-light">
+        <div class="tile"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg></div>
+        <h3>Consultoria online</h3>
+        <p>Atendimento para todo o Brasil, para quem quer um projeto assinado por ela mesmo à distância.</p>
+      </div>
+    </div>
+    <div class="cta-center">
+      <a class="btn btn-primary" data-wa="Olá! Vim pelo site e quero falar sobre o meu espaço com a Michele." href="https://wa.me/5535997360098">Falar sobre o meu espaço <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PORTFÓLIO -->
+<section class="light reveal" id="portfolio" aria-labelledby="port-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Portfólio</span>
+      <h2 id="port-title">Projetos <em>reais</em>, assinados pela Michele</h2>
+      <p class="sub" style="color:var(--mocha-600)">Cada imagem é um ambiente entregue</p>
+    </div>
+    <div class="gallery">
+      <figure><img src="assets/projeto-01.jpg" alt="Sala de jantar integrada à cozinha" loading="lazy"></figure>
+      <figure><img src="assets/projeto-02.jpg" alt="Cozinha com ilha e sala de estar" loading="lazy"></figure>
+      <figure><img src="assets/projeto-03.jpg" alt="Quarto com marcenaria planejada" loading="lazy"></figure>
+      <figure><img src="assets/projeto-04.jpg" alt="Área externa com piscina e deck" loading="lazy"></figure>
+      <figure><img src="assets/projeto-05.jpg" alt="Home office com estante planejada" loading="lazy"></figure>
+      <figure><img src="assets/projeto-06.jpg" alt="Fachada de casa com piscina" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 5. DIFERENCIAIS -->
+<section class="dark reveal" id="diferenciais" aria-labelledby="dif-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Diferenciais</span>
+      <h2 id="dif-title">Por que clientes confiam no trabalho da <em>Michele</em></h2>
+      <p class="sub" style="color:var(--mocha-400)">Sofisticação com função, do jeito que a sua rotina precisa</p>
+    </div>
+    <div class="dif-list">
+      <div class="dif-item"><span class="check">✓</span><p>Mais de 14 anos de experiência em design de interiores</p></div>
+      <div class="dif-item"><span class="check">✓</span><p>Atuação residencial, comercial e online para todo o Brasil</p></div>
+      <div class="dif-item"><span class="check">✓</span><p>Projetos personalizados, sem fórmula pronta</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. COMO FUNCIONA -->
+<section class="light reveal" id="como-funciona" aria-labelledby="cf-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Como funciona</span>
+      <h2 id="cf-title">Do primeiro contato ao <em>projeto entregue</em></h2>
+      <p class="sub" style="color:var(--mocha-600)">Um processo claro, do jeito que você merece</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">01</span><h3>Você chama no WhatsApp</h3><p>Conte como imagina o seu espaço.</p></div>
+      <div class="step"><span class="n">02</span><h3>Entendimento do projeto</h3><p>Michele entende as necessidades do ambiente e da rotina da família ou do negócio.</p></div>
+      <div class="step"><span class="n">03</span><h3>Desenvolvimento e acompanhamento</h3><p>Projeto desenvolvido com acompanhamento em cada etapa.</p></div>
+    </div>
+    <div class="cta-center">
+      <a class="btn btn-primary" data-wa="Olá! Vim pelo site e quero iniciar meu projeto com a Michele." href="https://wa.me/5535997360098">Iniciar meu projeto pelo WhatsApp <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 7. DEPOIMENTOS -->
+<section class="light reveal" id="depoimentos" aria-labelledby="dep-title" style="background:var(--sand-100)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Depoimentos</span>
+      <h2 id="dep-title">Quem já transformou o espaço, <em>aprova</em></h2>
+      <p class="sub" style="color:var(--mocha-600)">Nota 5,0 no Google, com 6 avaliações</p>
+      <p class="lede">Os depoimentos abaixo vêm do resumo de avaliações do Google, que não mostra o nome de quem avaliou.</p>
+    </div>
+    <div class="reviews">
+      <div class="review">
+        <div class="top"><span class="g">G</span></div>
+        <p>"Ficou linda a transformação que a Michele fez no meu espaço!"</p>
+        <small>Avaliação no Google</small>
+      </div>
+      <div class="review">
+        <div class="top"><span class="g">G</span></div>
+        <p>"Muito competente e profissional."</p>
+        <small>Avaliação no Google</small>
+      </div>
+      <div class="review">
+        <div class="top"><span class="g">G</span></div>
+        <p>"Os projetos são maravilhosos!"</p>
+        <small>Avaliação no Google</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. LOCALIZAÇÃO -->
+<section class="light reveal" id="localizacao" aria-labelledby="loc-title">
+  <div class="wrap loc-grid">
+    <div class="loc-copy">
+      <span class="eyebrow">Onde estamos</span>
+      <h2 id="loc-title" style="font-size:clamp(24px,3.4vw,34px);margin:14px 0 10px">Atendimento em Lavras/MG e <em style="color:var(--mocha-600);font-style:italic">online para todo o Brasil</em></h2>
+      <address>Rua José Haddad, 150 — Vila Alzira, Lavras/MG, 37205-182</address>
+      <p>Atendimento presencial em Lavras e consultoria online para clientes de todo o Brasil. Horário de atendimento: <span class="pend">[A CONFIRMAR]</span>.</p>
+      <a class="btn btn-wa" data-wa="Olá! Vim pelo site e quero falar sobre o meu projeto com a Michele." href="https://wa.me/5535997360098">Chamar no WhatsApp <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+    </div>
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps?q=Michele+Tavares+-+Designer+de+Interiores+-+R.+Jose+Haddad,+150+-+Vila+Alzira,+Lavras+-+MG,+37205-182&output=embed" title="Localização do atelier da Michele Tavares no mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CTA FINAL -->
+<section class="dark reveal" aria-labelledby="cta-final-title">
+  <div class="wrap">
+    <div class="summary">
+      <h2 id="cta-final-title">O projeto do seu espaço <em>começa aqui</em></h2>
+      <p class="sub" style="color:var(--mocha-400)">Fale diretamente com a Michele Tavares</p>
+      <p>Conte como você imagina o seu espaço e descubra como transformar isso em projeto.</p>
+      <a class="btn btn-primary" data-wa="Olá! Vim pelo site e quero começar meu projeto agora com a Michele." href="https://wa.me/5535997360098">Começar meu projeto agora <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="ftr-grid">
+      <div>
+        <div class="ftr-brand"><img src="assets/logo-mt.png" alt="" width="35" height="27"><span>Michele Tavares</span></div>
+        <p style="margin:0;color:var(--sand-100);opacity:.85;max-width:26rem">Design de interiores residencial e comercial em Lavras/MG, com mais de 14 anos de experiência e atendimento online.</p>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a data-wa="Olá! Vim pelo site e quero falar sobre o meu projeto com a Michele." href="https://wa.me/5535997360098">WhatsApp: (35) 99736-0098</a></li>
+          <li><a href="https://www.instagram.com/michele_tavares.interiores/" target="_blank" rel="noopener">Instagram @michele_tavares.interiores</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Endereço</h4>
+        <ul>
+          <li>Rua José Haddad, 150 — Vila Alzira</li>
+          <li>Lavras/MG, 37205-182</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr-bottom">
+      <span>© <span id="ano"></span> Michele Tavares Design de Interiores</span>
+      <span>Site produzido por Connect Alpha</span>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/5535997360098" data-wa="Olá! Vim pelo site e quero falar sobre o meu projeto com a Michele." aria-label="Falar no WhatsApp com a Michele">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+</a>
+
+<script>
+(function(){
+  var WA_NUMBER = '5535997360098';
+  document.querySelectorAll('[data-wa]').forEach(function(a){
+    a.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(a.dataset.wa);
+  });
+
+  var ano = document.getElementById('ano');
+  if (ano) ano.textContent = new Date().getFullYear();
+
+  var menuBtn = document.getElementById('menuBtn'), nav = document.getElementById('navLinks');
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(open));
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); });
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') { nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); }
+    });
+  }
+
+  var links = [].slice.call(document.querySelectorAll('.nav-links a'));
+  if ('IntersectionObserver' in window) {
+    var navIo = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) links.forEach(function(l){ l.classList.toggle('on', l.getAttribute('href') === '#' + e.target.id); });
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    ['sobre','portfolio','depoimentos','localizacao'].forEach(function(id){
+      var el = document.getElementById(id);
+      if (el) navIo.observe(el);
+    });
+
+    var revealIo = new IntersectionObserver(function(entries, obs){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); }
+      });
+    }, { threshold: .12 });
+    document.querySelectorAll('.reveal').forEach(function(el){ revealIo.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
